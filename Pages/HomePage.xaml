@@ -7,7 +7,7 @@
              Shell.NavBarIsVisible="False"
              >
 
-    <Grid Padding="10,20" RowDefinitions="75,*,*" BackgroundColor="{StaticResource FashionBackColor}">
+    <Grid Padding="10,20" RowDefinitions="75,50,*" BackgroundColor="{StaticResource FashionBackColor}">
         <Grid BackgroundColor="Transparent">
             <FlexLayout AlignItems="center" JustifyContent="SpaceBetween">
                 <HorizontalStackLayout Spacing="10">
@@ -19,10 +19,25 @@
                         <Label FontSize="15" VerticalOptions="End" Text="Milton Miguel Malavo" FontFamily="{Static fonts:FontsSettigns.POPPINS_MEDIUM}"/>
                     </VerticalStackLayout>
                 </HorizontalStackLayout>
-                <Border StrokeShape="RoundRectangle 60" Padding="10" StrokeThickness="0" WidthRequest="55" BackgroundColor="White">
+                <Border StrokeShape="RoundRectangle 60" Padding="10" StrokeThickness="0" WidthRequest="55" BackgroundColor="white">
                     <Image Aspect="AspectFit" Source="notification.png"/>
                 </Border>
             </FlexLayout>
+        </Grid>
+
+        <Grid Grid.Row="1" ColumnSpacing="10" ColumnDefinitions="*, auto">
+            <Border Grid.Column="0" BackgroundColor="white" StrokeThickness="0" StrokeShape="RoundRectangle 15">
+               
+            </Border>
+
+            <Border Grid.Column="1"   WidthRequest="60">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#3C90F7" Offset="0"/>
+                        <GradientStop Color="#89BCFE" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
         </Grid>
     </Grid>
 </ContentPage>
