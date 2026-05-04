@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fashion.Mobile.Pages.HomePage"
+             Title="HomePage"
+             xmlns:fonts="clr-namespace:Fashion.Mobile.Helpers"
+             Shell.NavBarIsVisible="False"
+             >
+
+    <Grid Padding="10,20" RowDefinitions="75,*,*" BackgroundColor="{StaticResource FashionBackColor}">
+        <Grid BackgroundColor="Transparent">
+            <FlexLayout AlignItems="center" JustifyContent="SpaceBetween">
+                <HorizontalStackLayout Spacing="10">
+                    <Border StrokeThickness="0" WidthRequest="55" BackgroundColor="Transparent">
+                        <Image Aspect="AspectFit" Source="foto.png"/>
+                    </Border>
+                    <VerticalStackLayout Spacing="-2" VerticalOptions="Center">
+                        <Label FontSize="15" VerticalOptions="Start" Text="Good Morning!" TextColor="#A7A9AD" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                        <Label FontSize="15" VerticalOptions="End" Text="Milton Miguel Malavo" FontFamily="{Static fonts:FontsSettigns.POPPINS_MEDIUM}"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+                <Border StrokeShape="RoundRectangle 60" Padding="10" StrokeThickness="0" WidthRequest="55" BackgroundColor="White">
+                    <Image Aspect="AspectFit" Source="notification.png"/>
+                </Border>
+            </FlexLayout>
+        </Grid>
+    </Grid>
+</ContentPage>
