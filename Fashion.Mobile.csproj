@@ -72,6 +72,8 @@
 
 	<ItemGroup>
 	  <Folder Include="Helpers/" />
+	  <Folder Include="Models/" />
+	  <Folder Include="ViewModels/" />
 	  <Folder Include="Views/" />
 	</ItemGroup>
 

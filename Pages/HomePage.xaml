@@ -5,9 +5,15 @@
              Title="HomePage"
              xmlns:fonts="clr-namespace:Fashion.Mobile.Helpers"
              Shell.NavBarIsVisible="False"
-             >
+             xmlns:viewmodels="clr-namespace:Fashion.Mobile.ViewModels"
+             x:DataType="viewmodels:HomeViewModels"
+             xmlns:models="clr-namespace:Fashion.Mobile.Models">
 
-    <Grid Padding="10,20" RowDefinitions="75,50,*" BackgroundColor="{StaticResource FashionBackColor}">
+             <ContentPage.BindingContext>
+                <viewmodels:HomeViewModels/>
+            </ContentPage.BindingContext>
+
+    <Grid RowSpacing="10" Padding="10,20" RowDefinitions="75,50,80,230,45,20,*" BackgroundColor="{StaticResource FashionBackColor}">
         <Grid BackgroundColor="Transparent">
             <FlexLayout AlignItems="center" JustifyContent="SpaceBetween">
                 <HorizontalStackLayout Spacing="10">
@@ -19,18 +25,21 @@
                         <Label FontSize="15" VerticalOptions="End" Text="Milton Miguel Malavo" FontFamily="{Static fonts:FontsSettigns.POPPINS_MEDIUM}"/>
                     </VerticalStackLayout>
                 </HorizontalStackLayout>
-                <Border StrokeShape="RoundRectangle 60" Padding="10" StrokeThickness="0" WidthRequest="55" BackgroundColor="white">
+                <Border StrokeShape="RoundRectangle 60" Padding="12" StrokeThickness="0" WidthRequest="55" BackgroundColor="#F6F6F6">
                     <Image Aspect="AspectFit" Source="notification.png"/>
                 </Border>
             </FlexLayout>
         </Grid>
 
         <Grid Grid.Row="1" ColumnSpacing="10" ColumnDefinitions="*, auto">
-            <Border Grid.Column="0" BackgroundColor="white" StrokeThickness="0" StrokeShape="RoundRectangle 15">
-               
+            <Border Padding="5" Grid.Column="0" BackgroundColor="#F6F6F6" StrokeThickness="0" StrokeShape="RoundRectangle 15">
+                <Grid ColumnSpacing="5" ColumnDefinitions="auto, *" BackgroundColor="Transparent">
+                    <Image WidthRequest="30" Grid.Column="0" HorizontalOptions="Start" Source="notification.png"/>
+                    <Entry Grid.Column="1" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}" BackgroundColor="Transparent" PlaceholderColor="#B9B9B9" HorizontalOptions="Fill" Placeholder="Whats are you looking..." />
+                </Grid>
             </Border>
 
-            <Border Grid.Column="1"   WidthRequest="60">
+            <Border Grid.Column="1" WidthRequest="50" StrokeThickness="0" StrokeShape="RoundRectangle 100">
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
                         <GradientStop Color="#3C90F7" Offset="0"/>
@@ -39,5 +48,148 @@
                 </Border.Background>
             </Border>
         </Grid>
+
+        <Grid Grid.Row="2">
+                <CollectionView ItemsSource="{Binding Tipos}">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Horizontal" ItemSpacing="22"/>
+                    </CollectionView.ItemsLayout>
+                   <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Types">
+                            <Border WidthRequest="65" StrokeThickness="0" HeightRequest="80">
+                                <Grid RowSpacing="2" RowDefinitions="*, auto">
+                                    <Border Grid.Row="0" StrokeThickness="0" StrokeShape="RoundRectangle 20" Padding="15">
+                                        <Image Aspect="AspectFill" Source="notification.png"/>
+                                        <Border.Background>
+                                            <LinearGradientBrush>
+                                                <GradientStop Offset="0" Color="{Binding CorDeCima}"/>
+                                                <GradientStop Offset="1" Color="{Binding CorDeBaixo}"/>
+                                            </LinearGradientBrush>
+                                        </Border.Background>
+                                    </Border>
+                                    <Label TextColor="#7A7C80" FontSize="12" Grid.Row="1" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}" HorizontalTextAlignment="Center" BackgroundColor="Transparent" Text="{Binding Descricao}"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                   </CollectionView.ItemTemplate>
+                </CollectionView>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Border Padding="15" StrokeThickness="0" BackgroundColor="#F6F6F6" StrokeShape="RoundRectangle 20">
+
+                <Grid RowSpacing="20" RowDefinitions="60, auto, *">
+                    <Grid ColumnSpacing="5" ColumnDefinitions="*,*">
+                        <Border Padding="5" StrokeThickness="1" Stroke="White" StrokeShape="RoundRectangle 20" Grid.Column="0">
+                            <HorizontalStackLayout Spacing="2">
+                                <Border WidthRequest="50" Padding="5" StrokeThickness="0" StrokeShape="RoundRectangle 50" BackgroundColor="#ECEEEE">
+                                    <Image Source="notification.png"/>
+                                </Border>
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Label Text="Balance" FontSize="12" TextColor="#7A7C80" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                    <Label Text="$2740.20" FontSize="16" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </Border>
+
+                        <Border Padding="5" StrokeThickness="1" Stroke="White" StrokeShape="RoundRectangle 20" Grid.Column="1">
+                            <HorizontalStackLayout Spacing="2">
+                                <Border WidthRequest="50" Padding="5" StrokeThickness="0" StrokeShape="RoundRectangle 50" BackgroundColor="#ECEEEE">
+                                    <Image Source="notification.png"/>
+                                </Border>
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Label Text="Balance" FontSize="12" TextColor="#7A7C80" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                    <Label Text="$2740.20" FontSize="16" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </Border>
+                    </Grid>
+                    <FlexLayout Grid.Row="1" AlignItems="center" JustifyContent="SpaceBetween">
+
+                        <Label Text="All Brands" FontSize="18" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                        <Label Text="See all" FontSize="12" TextColor="#7A7C80" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                    </FlexLayout>
+
+                    <CollectionView Grid.Row="2" ItemsSource="{Binding Marcas}">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Horizontal" ItemSpacing="15"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="models:Marcas">
+                                <Border WidthRequest="65" StrokeThickness="0" HeightRequest="80">
+                                    <Grid RowSpacing="2" RowDefinitions="*, auto">
+                                        <Border Grid.Row="0" StrokeThickness="1" Stroke="White" StrokeShape="RoundRectangle 50" Padding="15">
+                                            <Image Aspect="AspectFill" Source="{Binding Imagem}"/>
+                                        </Border>
+                                        <Label TextColor="black" FontSize="12" Grid.Row="1" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}" HorizontalTextAlignment="Center" BackgroundColor="Transparent" Text="{Binding Descricao}"/>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="4" BackgroundColor="Transparent">
+            <CollectionView HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" ItemsSource="{Binding Categorias}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Categoria">
+                        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" Padding="30,5"  BackgroundColor="Black">
+                            <Label Text="{Binding Descricao}" TextColor="White" VerticalTextAlignment="Center" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+
+        <FlexLayout Grid.Row="5" AlignItems="center" JustifyContent="SpaceBetween">
+            <Label Text="Popular Products" FontSize="18" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+            <Label Text="See all" FontSize="12" TextColor="#7A7C80" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+        </FlexLayout>
+
+        <Grid Grid.Row="6" BackgroundColor="Transparent">
+            <CollectionView ItemsSource="{Binding Products}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" HorizontalItemSpacing="10" VerticalItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Product">
+                        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" Padding="10" HeightRequest="250" BackgroundColor="White">
+                            <Grid RowDefinitions=".7*, .3*" RowSpacing="10">
+                                <Border Grid.Row="0" StrokeThickness="0" StrokeShape="RoundRectangle 20" BackgroundColor="#E7E7E7">
+                                    <Image Source="dotnet_bot.png" VerticalOptions="Center" HorizontalOptions="Center" Aspect="AspectFit"/>
+                                </Border>
+
+                                <VerticalStackLayout Grid.Row="1" Spacing="10">
+                                    <FlexLayout AlignItems="Center" JustifyContent="SpaceBetween">
+                                        <Label Text="{Binding Nome}" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                        <HorizontalStackLayout>
+                                            <Image HeightRequest="20" Source="notification.png"/>
+                                            <Label Text="{Binding Avaliacao}" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                        </HorizontalStackLayout>
+                                    </FlexLayout>
+
+                                      <FlexLayout HeightRequest="35" BackgroundColor="Transparent" AlignItems="center" JustifyContent="SpaceBetween">
+                                        <HorizontalStackLayout Spacing="5">
+                                            <Label  Text="{Binding PrecoDesconto, StringFormat='${0:0}'}" FontSize="16" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                            <Label TextColor="#7A7C80" VerticalOptions="Center" Text="{Binding Preco, StringFormat='${0}'}" TextDecorations="Strikethrough" FontSize="14" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                        </HorizontalStackLayout>
+                                        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" HeightRequest="30" Padding="15,0" BackgroundColor="#388DFE">
+                                            <Label Text="Check Out" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White"/>
+                                        </Border>
+                                     
+                                    </FlexLayout>
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        
     </Grid>
 </ContentPage>

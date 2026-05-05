@@ -23,6 +23,17 @@ public static class MauiProgram
 		builder.Logging.AddDebug();
 #endif
 
+builder.ConfigureMauiHandlers(handlers =>
+{
+    Microsoft.Maui.Handlers.EntryHandler.Mapper.AppendToMapping("NoUnderline", (handler, view) =>
+    {
+        #if ANDROID
+            handler.PlatformView.Background = null; // Remove a linha no Android
+        #elif IOS || MACCATALYST
+                            handler.PlatformView.BorderStyle = UIKit.UITextBorderStyle.None; // Remove borda no iOS
+        #endif
+    });
+});
 		return builder.Build();
 	}
 }
