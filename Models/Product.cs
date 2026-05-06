@@ -10,6 +10,7 @@ public class Product
     public string Imagem{get;set;} = string.Empty;
     public decimal Preco{get;set;}
     public decimal PercetualDeconto{get;set;}
+    public decimal Desconto=> PercetualDeconto*100;
     public decimal PrecoDesconto => Preco*PercetualDeconto;
     public decimal Avaliacao{get;set;}
     public Categoria Categoria {get;set;}

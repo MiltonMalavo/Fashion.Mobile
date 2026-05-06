@@ -2,11 +2,138 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Fashion.Mobile.Pages.DetalhesPage"
-             Title="DetalhesPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="DetalhesPage"
+             xmlns:fonts="clr-namespace:Fashion.Mobile.Helpers"
+             Shell.NavBarIsVisible="False"
+             xmlns:viewmodels="clr-namespace:Fashion.Mobile.ViewModels"
+             x:DataType="viewmodels:DetalhesViewModels"
+             xmlns:models="clr-namespace:Fashion.Mobile.Models">
+
+    <Grid RowDefinitions="auto,400,auto,auto,auto,auto,50,*,auto" RowSpacing="10" Padding="10,20" BackgroundColor="{StaticResource FashionBackColor}">
+        <FlexLayout  BackgroundColor="Transparent" Grid.Row="0" AlignContent="Center" JustifyContent="SpaceBetween">
+            <Border StrokeShape="RoundRectangle 60" StrokeThickness="0" BackgroundColor="White" Padding="15" WidthRequest="50" HeightRequest="50">
+                <Image VerticalOptions="Center" HorizontalOptions="Center" Source="back.png"/>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding BackHomeCommand}"/>
+                </Border.GestureRecognizers>
+            </Border>
+            <Label FontSize="18" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}" VerticalOptions="Center" Text="Popular Details"/>
+             <Border StrokeShape="RoundRectangle 60" StrokeThickness="0" BackgroundColor="White" Padding="15" WidthRequest="50" HeightRequest="50">
+                <Image VerticalOptions="Center" HorizontalOptions="Center" Source="close.png"/>
+            </Border>
+        </FlexLayout>
+
+        <Grid Grid.Row="1">
+            <Border Padding="20" StrokeThickness="0" BackgroundColor="#DFE1E1" StrokeShape="RoundRectangle 30">
+                <Image Source="{Binding Product.Imagem}"/>
+
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#D7D9D9" Offset="0"/>
+                        <GradientStop Color="#EBF2F2" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+        </Grid>
+
+       <FlexLayout Grid.Row="2" HeightRequest="35" BackgroundColor="Transparent" AlignItems="center" JustifyContent="SpaceBetween">
+            <HorizontalStackLayout Spacing="5">
+                <Label TextColor="Black"   Text="{Binding Product.PrecoDesconto, StringFormat='${0:0}'}" FontSize="25" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                <Label TextColor="#C6C8C8" VerticalOptions="Center" Text="{Binding Product.Preco, StringFormat='${0}'}" TextDecorations="Strikethrough" FontSize="16" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+            </HorizontalStackLayout>
+            <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" HeightRequest="30" Padding="15,0" BackgroundColor="#E4D8DC">
+                <Label Text="{Binding Product.Desconto, StringFormat='{0:0}% Off'}" VerticalOptions="Center" HorizontalOptions="Center" TextColor="#E68F90"/>
+            </Border>
+        </FlexLayout>
+        <Label FontSize="20" Grid.Row="3" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"  Text="{Binding Product.Nome}"/>
+        <Grid Grid.Row="4">
+        <HorizontalStackLayout  Spacing="5">
+                    <Border BackgroundColor="Transparent" Grid.Row="0" StrokeThickness="1" Stroke="White" StrokeShape="RoundRectangle 50" HeightRequest="40" WidthRequest="40" Padding="7">
+                        <Image Aspect="Fill" Source="{Binding Product.Marca.Imagem}" />
+                    </Border>
+                    <Label VerticalTextAlignment="Center" TextColor="#FF032929" Text="{Binding Product.Marca.Descricao}" FontSize="12" FontFamily="{Static fonts:FontsSettigns.POPPINS_BOLD}"/>
+            </HorizontalStackLayout>
+        </Grid>
+        <Label Grid.Row="5" VerticalTextAlignment="Center" TextColor="#FF032929" Text="Choose Size" FontSize="12" FontFamily="{Static fonts:FontsSettigns.POPPINS_BOLD}"/>
+
+        <Grid Grid.Row="6">
+            <FlexLayout AlignItems="center" JustifyContent="SpaceBetween">
+                <Border HeightRequest="50" Padding="8,5" BackgroundColor="White" StrokeThickness="0" StrokeShape="RoundRectangle 20">
+                     <CollectionView SelectionMode="Single" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" ItemsSource="{Binding Product.Sizes}">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Horizontal" ItemSpacing="2"/>
+                        </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="models:Size">
+                                <Border StrokeThickness="0" WidthRequest="40" StrokeShape="RoundRectangle 60" BackgroundColor="#EFEFEF">
+                                    <Label x:Name="Title" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="{Binding Descricao}" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                    <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup x:Name="CommonStates">
+                                        <VisualState x:Name="Normal">
+                                            <VisualState.Setters>
+                                                <Setter Property="BackgroundColor" Value="#F6F6F6"/>
+                                                <Setter TargetName="Title" Property="Label.TextColor" Value="Black"/>
+                                            </VisualState.Setters>
+                                        </VisualState>
+
+                                        <VisualState x:Name="Selected">
+                                            <VisualState.Setters>
+                                                <Setter Property="BackgroundColor" Value="Black"/>
+                                                <Setter TargetName="Title" Property="Label.TextColor" Value="white"/>
+                                            </VisualState.Setters>
+                                        </VisualState>
+
+                                    </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Border>
+
+                  <Border HeightRequest="50" Padding="8,5" BackgroundColor="White" StrokeThickness="0" StrokeShape="RoundRectangle 20">
+                     <CollectionView HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" ItemsSource="{Binding Product.Cors}">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Horizontal" ItemSpacing="2"/>
+                        </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="models:Cor">
+                                <Border StrokeThickness="0" WidthRequest="40" StrokeShape="RoundRectangle 60" BackgroundColor="{Binding Descricao}">
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Border>
+            </FlexLayout>
+        </Grid>
+
+        <VerticalStackLayout Grid.Row="7" Spacing="10">
+            <Label  VerticalTextAlignment="Center" TextColor="#FF032929" Text="Description" FontSize="16" FontFamily="{Static fonts:FontsSettigns.POPPINS_BOLD}"/>
+            <Label  VerticalTextAlignment="Center" TextColor="#FF032929" Text="{Binding Product.Descricao}" FontSize="12" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+        </VerticalStackLayout>
+
+           <FlexLayout Grid.Row="8" AlignItems="center" JustifyContent="SpaceBetween">
+                <Border HeightRequest="50" Padding="8,5" BackgroundColor="White" StrokeThickness="0" StrokeShape="RoundRectangle 20">
+                    <FlexLayout>
+                        <Border StrokeThickness="0" WidthRequest="40" StrokeShape="RoundRectangle 60" BackgroundColor="#EFEFEF">
+                            <Label FontSize="25" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="-" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                        </Border>
+                        <Label Margin="5,0,5,0" FontSize="20" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="0" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                        <Border StrokeThickness="0" WidthRequest="40" StrokeShape="RoundRectangle 60" BackgroundColor="#EFEFEF">
+                            <Label FontSize="25" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="+" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                        </Border>
+                    </FlexLayout>
+                </Border>
+
+                 <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" HeightRequest="50" Padding="70,0" BackgroundColor="#388DFE">
+                    <HorizontalStackLayout Spacing="5">
+                        <Image Source="bag.png" HeightRequest="20"/>
+                        <Label Text="Add to cart" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White"/>
+                    </HorizontalStackLayout>
+                </Border>
+            </FlexLayout>
+    </Grid>
+
+    
+
 </ContentPage>

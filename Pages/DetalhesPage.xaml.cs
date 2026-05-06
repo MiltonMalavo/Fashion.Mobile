@@ -2,9 +2,11 @@ namespace Fashion.Mobile.Pages;
 [QueryProperty(nameof(Id), "id")]
 public partial class DetalhesPage : ContentPage
 {
-	public string Id { get; set; }
+	public DetalhesViewModels _detalhesViewModels;
 	public DetalhesPage()
 	{
 		InitializeComponent();
+		_detalhesViewModels = new DetalhesViewModels();
+		BindingContext = _detalhesViewModels;
 	}
 }

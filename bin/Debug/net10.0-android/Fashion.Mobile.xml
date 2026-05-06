@@ -4,7 +4,17 @@
         <name>Fashion.Mobile</name>
     </assembly>
     <members>
+        <member name="T:Fashion.Mobile.ViewModels.DetalhesViewModels">
+            <inheritdoc/>
+        </member>
+        <member name="F:Fashion.Mobile.ViewModels.DetalhesViewModels.backHomeCommand">
+            <summary>The backing field for <see cref="P:Fashion.Mobile.ViewModels.DetalhesViewModels.BackHomeCommand"/>.</summary>
+        </member>
+        <member name="P:Fashion.Mobile.ViewModels.DetalhesViewModels.BackHomeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Fashion.Mobile.ViewModels.DetalhesViewModels.BackHome"/>.</summary>
+        </member>
         <member name="T:Fashion.Mobile.ViewModels.HomeViewModels">
+            <inheritdoc/>
             <inheritdoc/>
         </member>
         <member name="F:Fashion.Mobile.ViewModels.HomeViewModels.seeAllProductsCommand">
@@ -13,7 +23,14 @@
         <member name="P:Fashion.Mobile.ViewModels.HomeViewModels.SeeAllProductsCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Fashion.Mobile.ViewModels.HomeViewModels.SeeAllProducts"/>.</summary>
         </member>
+        <member name="F:Fashion.Mobile.ViewModels.HomeViewModels.categoriaSelectCommand">
+            <summary>The backing field for <see cref="P:Fashion.Mobile.ViewModels.HomeViewModels.CategoriaSelectCommand"/>.</summary>
+        </member>
+        <member name="P:Fashion.Mobile.ViewModels.HomeViewModels.CategoriaSelectCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Fashion.Mobile.ViewModels.HomeViewModels.CategoriaSelect"/>.</summary>
+        </member>
         <member name="T:Fashion.Mobile.ViewModels.PopularProducViewModel">
+            <inheritdoc/>
             <inheritdoc/>
         </member>
         <member name="F:Fashion.Mobile.ViewModels.PopularProducViewModel.backHomeCommand">
@@ -21,6 +38,12 @@
         </member>
         <member name="P:Fashion.Mobile.ViewModels.PopularProducViewModel.BackHomeCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Fashion.Mobile.ViewModels.PopularProducViewModel.BackHome"/>.</summary>
+        </member>
+        <member name="F:Fashion.Mobile.ViewModels.PopularProducViewModel.categoriaSelectCommand">
+            <summary>The backing field for <see cref="P:Fashion.Mobile.ViewModels.PopularProducViewModel.CategoriaSelectCommand"/>.</summary>
+        </member>
+        <member name="P:Fashion.Mobile.ViewModels.PopularProducViewModel.CategoriaSelectCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Fashion.Mobile.ViewModels.PopularProducViewModel.CategoriaSelect"/>.</summary>
         </member>
         <member name="T:Fashion.Mobile.Resource">
             <summary>

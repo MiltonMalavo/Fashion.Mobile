@@ -7,6 +7,7 @@
              Shell.NavBarIsVisible="False"
              xmlns:viewmodels="clr-namespace:Fashion.Mobile.ViewModels"
              x:DataType="viewmodels:HomeViewModels"
+             xmlns:CustomBorder="clr-namespace:Fashion.Mobile.CustomControls"
              xmlns:models="clr-namespace:Fashion.Mobile.Models">
 
              <ContentPage.BindingContext>
@@ -181,7 +182,7 @@
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:Product">
-                        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" Padding="10" HeightRequest="250" BackgroundColor="White">
+                        <CustomBorder:BorderAnimation StrokeThickness="0" StrokeShape="RoundRectangle 20" Padding="10" HeightRequest="250" BackgroundColor="White">
                             <Grid RowDefinitions=".7*, .3*" RowSpacing="10">
                                 <Border Grid.Row="0" Padding="10" StrokeThickness="0" StrokeShape="RoundRectangle 20" BackgroundColor="#E7E7E7">
                                     <Image Source="{Binding Imagem}" VerticalOptions="Center" HorizontalOptions="Center" Aspect="AspectFit"/>
@@ -206,7 +207,11 @@
                                     </FlexLayout>
                                 </VerticalStackLayout>
                             </Grid>
-                        </Border>
+
+                            <CustomBorder:BorderAnimation.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                            </CustomBorder:BorderAnimation.GestureRecognizers>
+                        </CustomBorder:BorderAnimation>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

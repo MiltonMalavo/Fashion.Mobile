@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="Fashion.Mobile" mvid="89e620e77a7b4cb8a6429f924a743b77">
+<api type="debug" assembly-name="Fashion.Mobile" mvid="8ce7ca44d5d449a7a0f9262985fd9d9f">
   <java-to-managed>
     <entry java-name="crc64c8b782cebdb30f9c/MainActivity" managed-name="Fashion.Mobile.MainActivity, Fashion.Mobile" managed-type-token-id="33554442" />
     <entry java-name="crc64c8b782cebdb30f9c/MainApplication" managed-name="Fashion.Mobile.MainApplication, Fashion.Mobile" managed-type-token-id="33554443" />

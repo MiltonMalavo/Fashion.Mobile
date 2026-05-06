@@ -105,7 +105,9 @@
                                     </FlexLayout>
                                 </VerticalStackLayout>
                             </Grid>
-                            
+                                <Border.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                </Border.GestureRecognizers>                     
                         </Border>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

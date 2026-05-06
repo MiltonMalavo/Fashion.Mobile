@@ -160,7 +160,7 @@ public class ProdutoService : IBaseService<Product>
                 Marca = marcas.First(x => x.Id == 5),
                 Categoria = new CategoriaService().GetById(1),
                 Sizes = GetSizes(),
-                Cors = GetColors(Colors.Beige, Colors.Brown, Colors.Black, Colors.White)
+                Cors = GetColors(Colors.RoyalBlue, Colors.Brown, Colors.Black, Colors.White)
             },
 
             new Product
@@ -205,7 +205,7 @@ public class ProdutoService : IBaseService<Product>
                 Marca = marcas.First(x => x.Id == 3),
                 Categoria = new CategoriaService().GetById(4),
                 Sizes = GetSizes(),
-                Cors = GetColors(Colors.Brown, Colors.Black, Colors.Beige)
+                Cors = GetColors(Colors.Brown, Colors.Black, Colors.RoyalBlue)
             },
 
             new Product
@@ -310,7 +310,7 @@ public class ProdutoService : IBaseService<Product>
                 Marca = marcas.First(x => x.Id == 5),
                 Categoria = new CategoriaService().GetById(2),
                 Sizes = GetSizes(),
-                Cors = GetColors(Colors.Beige, Colors.Black, Colors.Brown, Colors.White)
+                Cors = GetColors(Colors.RoyalBlue, Colors.Black, Colors.Brown, Colors.White)
             },
 
             new Product
@@ -355,7 +355,7 @@ public class ProdutoService : IBaseService<Product>
                 Marca = marcas.First(x => x.Id == 2),
                 Categoria = new CategoriaService().GetById(2),
                 Sizes = GetSizes(),
-                Cors = GetColors(Colors.Brown, Colors.Black, Colors.Beige)
+                Cors = GetColors(Colors.Brown, Colors.Black, Colors.RoyalBlue)
             },
 
             new Product
@@ -460,7 +460,7 @@ public class ProdutoService : IBaseService<Product>
                 Marca = marcas.First(x => x.Id == 5),
                 Categoria = new CategoriaService().GetById(3),
                 Sizes = GetSizes(),
-                Cors = GetColors(Colors.Beige, Colors.Black, Colors.Brown, Colors.White)
+                Cors = GetColors(Colors.RoyalBlue, Colors.Black, Colors.Brown, Colors.White)
             }
         };
     }
@@ -487,6 +487,6 @@ public class ProdutoService : IBaseService<Product>
 
     public Product GetById(int Id)
     {
-        throw new NotImplementedException();
+        return GetAll().FirstOrDefault(x=>x.Id == Id);
     }
 }
