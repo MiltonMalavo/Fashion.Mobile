@@ -27,14 +27,33 @@
             </Border>
         </FlexLayout>
         <Grid Grid.Row="1" BackgroundColor="Transparent">
-            <CollectionView HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" ItemsSource="{Binding Categorias}">
+            <CollectionView SelectionChangedCommand="{Binding CategoriaSelectCommand}" SelectedItem="{Binding CategoriaSelecionada}" SelectionMode="Single" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" ItemsSource="{Binding Categorias}">
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout Orientation="Horizontal" ItemSpacing="10"/>
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:Categoria">
                         <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" Padding="30,5"  BackgroundColor="Black">
-                            <Label Text="{Binding Descricao}" TextColor="White" VerticalTextAlignment="Center" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                               <Label x:Name="Title" Text="{Binding Descricao}" TextColor="White" VerticalTextAlignment="Center" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                             <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+
+                                    <VisualState x:Name="Normal">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="#F6F6F6"/>
+                                            <Setter TargetName="Title" Property="Label.TextColor" Value="Black"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+
+                                    <VisualState x:Name="Selected">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="Black"/>
+                                            <Setter TargetName="Title" Property="Label.TextColor" Value="white"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+
+                                </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
                         </Border>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
@@ -86,6 +105,7 @@
                                     </FlexLayout>
                                 </VerticalStackLayout>
                             </Grid>
+                            
                         </Border>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

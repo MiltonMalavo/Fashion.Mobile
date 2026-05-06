@@ -203,7 +203,7 @@ public class ProdutoService : IBaseService<Product>
                 PercetualDeconto = 0.33m,
                 Avaliacao = 4.6m,
                 Marca = marcas.First(x => x.Id == 3),
-                Categoria = new CategoriaService().GetById(1),
+                Categoria = new CategoriaService().GetById(4),
                 Sizes = GetSizes(),
                 Cors = GetColors(Colors.Brown, Colors.Black, Colors.Beige)
             },
@@ -233,7 +233,7 @@ public class ProdutoService : IBaseService<Product>
                 PercetualDeconto = 0.60m,
                 Avaliacao = 4.8m,
                 Marca = marcas.First(x => x.Id == 5),
-                Categoria = new CategoriaService().GetById(3),
+                Categoria = new CategoriaService().GetById(4),
                 Sizes = GetSizes(),
                 Cors = GetColors(Colors.Navy, Colors.Black, Colors.Gray)
             },
@@ -263,7 +263,7 @@ public class ProdutoService : IBaseService<Product>
                 PercetualDeconto = 0.27m,
                 Avaliacao = 3.6m,
                 Marca = marcas.First(x => x.Id == 2),
-                Categoria = new CategoriaService().GetById(2),
+                Categoria = new CategoriaService().GetById(4),
                 Sizes = GetSizes(),
                 Cors = GetColors(Colors.Blue, Colors.LightBlue, Colors.White)
             },
@@ -293,7 +293,7 @@ public class ProdutoService : IBaseService<Product>
                 PercetualDeconto = 0.19m,
                 Avaliacao = 3.9m,
                 Marca = marcas.First(x => x.Id == 4),
-                Categoria = new CategoriaService().GetById(1),
+                Categoria = new CategoriaService().GetById(4),
                 Sizes = GetSizes(),
                 Cors = GetColors(Colors.White, Colors.Black, Colors.Gray)
             },
