@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fashion.Mobile.Pages.PopularPage"
+             Title="PopularPage"
+             xmlns:fonts="clr-namespace:Fashion.Mobile.Helpers"
+             Shell.NavBarIsVisible="False"
+             xmlns:viewmodels="clr-namespace:Fashion.Mobile.ViewModels"
+             x:DataType="viewmodels:PopularProducViewModel"
+             xmlns:models="clr-namespace:Fashion.Mobile.Models"
+             >
+
+    <ContentPage.BindingContext>
+        <viewmodels:PopularProducViewModel/>
+    </ContentPage.BindingContext>
+    <Grid RowDefinitions="auto,45,200,auto,*" RowSpacing="10" Padding="10,20" BackgroundColor="{StaticResource FashionBackColor}">
+        <FlexLayout  BackgroundColor="Transparent" Grid.Row="0" AlignContent="Center" JustifyContent="SpaceBetween">
+            <Border StrokeShape="RoundRectangle 60" StrokeThickness="0" BackgroundColor="White" Padding="15" WidthRequest="50" HeightRequest="50">
+                <Image VerticalOptions="Center" HorizontalOptions="Center" Source="back.png"/>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding BackHomeCommand}"/>
+                </Border.GestureRecognizers>
+            </Border>
+            <Label FontSize="18" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}" VerticalOptions="Center" Text="Popular Product"/>
+             <Border StrokeShape="RoundRectangle 60" StrokeThickness="0" BackgroundColor="White" Padding="15" WidthRequest="50" HeightRequest="50">
+                <Image VerticalOptions="Center" HorizontalOptions="Center" Source="close.png"/>
+            </Border>
+        </FlexLayout>
+        <Grid Grid.Row="1" BackgroundColor="Transparent">
+            <CollectionView HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" ItemsSource="{Binding Categorias}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Categoria">
+                        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" Padding="30,5"  BackgroundColor="Black">
+                            <Label Text="{Binding Descricao}" TextColor="White" VerticalTextAlignment="Center" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" BackgroundColor="#D9D9D9">
+                <Image Source="banner.png"/>
+            </Border>
+        </Grid>
+        
+        <FlexLayout Grid.Row="3" AlignItems="center" JustifyContent="SpaceBetween">
+            <Label Text="Popular Products" FontSize="18" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+            <Label Text="See all" FontSize="12" TextColor="#7A7C80" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding SeeAllProductsCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </FlexLayout>
+        <Grid Grid.Row="4" BackgroundColor="Transparent">
+            <CollectionView VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" ItemsSource="{Binding Products}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" HorizontalItemSpacing="10" VerticalItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Product">
+                        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" Padding="10" HeightRequest="250" BackgroundColor="White">
+                            <Grid RowDefinitions=".7*, .3*" RowSpacing="10">
+                                <Border Grid.Row="0" Padding="10" StrokeThickness="0" StrokeShape="RoundRectangle 20" BackgroundColor="#E7E7E7">
+                                    <Image Source="{Binding Imagem}" VerticalOptions="Center" HorizontalOptions="Center" Aspect="AspectFit"/>
+                                </Border>
+
+                                <VerticalStackLayout Grid.Row="1" Spacing="10">
+                                    <FlexLayout AlignItems="Center" JustifyContent="SpaceBetween">
+                                        <Label Text="{Binding Nome}" FontSize="14" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                        <HorizontalStackLayout Spacing="2">
+                                            <Image HeightRequest="15" Source="star" />
+                                            <Label Text="{Binding Avaliacao}" FontSize="12" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                        </HorizontalStackLayout>
+                                    </FlexLayout>
+                                      <FlexLayout HeightRequest="35" BackgroundColor="Transparent" AlignItems="center" JustifyContent="SpaceBetween">
+                                        <HorizontalStackLayout Spacing="5">
+                                            <Label  Text="{Binding PrecoDesconto, StringFormat='${0:0}'}" FontSize="16" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                            <Label TextColor="#7A7C80" VerticalOptions="Center" Text="{Binding Preco, StringFormat='${0}'}" TextDecorations="Strikethrough" FontSize="14" FontFamily="{Static fonts:FontsSettigns.POPPINS_REGULAR}"/>
+                                        </HorizontalStackLayout>
+                                        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" HeightRequest="30" Padding="15,0" BackgroundColor="#388DFE">
+                                            <Label Text="Check Out" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White"/>
+                                        </Border>
+                                    </FlexLayout>
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </Grid>
+</ContentPage>

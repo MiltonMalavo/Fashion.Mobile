@@ -19,6 +19,6 @@ public class CategoriaService : IBaseService<Categoria>
 
     public Categoria GetById(int Id)
     {
-        throw new NotImplementedException();
+        return GetAll().FirstOrDefault(x=>x.Id == Id);
     }
 }

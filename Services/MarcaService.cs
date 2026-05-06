@@ -10,16 +10,16 @@ public class MarcaService : IBaseService<Marcas>
     {
         return new ObservableCollection<Marcas>()
         {
-            new Marcas(){Id = 1, Descricao = "Nike", Imagem="notification.png"},
-            new Marcas(){Id = 2, Descricao = "Adidas", Imagem="notification.png"},
-            new Marcas(){Id = 3, Descricao = "Puma", Imagem="notification.png"},
-            new Marcas(){Id = 4, Descricao = "Chanel", Imagem="notification.png"},
-            new Marcas(){Id = 5, Descricao = "DJI", Imagem="notification.png"}
+            new Marcas(){Id = 1, Descricao = "Nike", Imagem="nike.png"},
+            new Marcas(){Id = 2, Descricao = "Adidas", Imagem="adidas.png"},
+            new Marcas(){Id = 3, Descricao = "Puma", Imagem="puma.png"},
+            new Marcas(){Id = 4, Descricao = "Chanel", Imagem="chanel.png"},
+            new Marcas(){Id = 5, Descricao = "DJI", Imagem="dji.png"}
         };
     }
 
     public Marcas GetById(int Id)
     {
-        throw new NotImplementedException();
+        return GetAll().FirstOrDefault(x=>x.Id == Id);
     }
 }

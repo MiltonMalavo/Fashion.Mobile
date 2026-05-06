@@ -9,6 +9,11 @@ build_property.MauiXamlNoWarn =
 build_property.EnableMauiXamlDiagnostics = true
 build_property.MauiXamlLineInfo = 
 build_property.Configuration = Debug
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = 
+build_property.CsWinRTAotWarningLevel = 
 build_property.TargetFramework = net10.0-android
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
@@ -56,11 +61,31 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
+[/Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/Pages/DetalhesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Fashion.Mobile.Pages.DetalhesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/DetalhesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/DetalhesPage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
 [/Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Fashion.Mobile.Pages.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages/HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages/HomePage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[/Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/Pages/PopularPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Fashion.Mobile.Pages.PopularPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/PopularPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/PopularPage.xaml
 build_metadata.AdditionalFiles.Inflator = SourceGen
 build_metadata.AdditionalFiles.NoWarn = 
 build_metadata.AdditionalFiles.EnableDiagnostics = 

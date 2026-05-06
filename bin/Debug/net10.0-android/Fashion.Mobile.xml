@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fashion.Mobile</name>
+    </assembly>
+    <members>
+        <member name="T:Fashion.Mobile.ViewModels.HomeViewModels">
+            <inheritdoc/>
+        </member>
+        <member name="F:Fashion.Mobile.ViewModels.HomeViewModels.seeAllProductsCommand">
+            <summary>The backing field for <see cref="P:Fashion.Mobile.ViewModels.HomeViewModels.SeeAllProductsCommand"/>.</summary>
+        </member>
+        <member name="P:Fashion.Mobile.ViewModels.HomeViewModels.SeeAllProductsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Fashion.Mobile.ViewModels.HomeViewModels.SeeAllProducts"/>.</summary>
+        </member>
+        <member name="T:Fashion.Mobile.ViewModels.PopularProducViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:Fashion.Mobile.ViewModels.PopularProducViewModel.backHomeCommand">
+            <summary>The backing field for <see cref="P:Fashion.Mobile.ViewModels.PopularProducViewModel.BackHomeCommand"/>.</summary>
+        </member>
+        <member name="P:Fashion.Mobile.ViewModels.PopularProducViewModel.BackHomeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Fashion.Mobile.ViewModels.PopularProducViewModel.BackHome"/>.</summary>
+        </member>
+        <member name="T:Fashion.Mobile.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

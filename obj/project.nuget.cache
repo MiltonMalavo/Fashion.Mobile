@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UjyhlM8vgNE=",
+  "dgSpecHash": "0mxlgrkrSxM=",
   "success": true,
   "projectFilePath": "/Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/Fashion.Mobile.csproj",
   "expectedPackageFiles": [
+    "/Users/miltonmalavo/.nuget/packages/communitytoolkit.mvvm/8.4.2/communitytoolkit.mvvm.8.4.2.nupkg.sha512",
     "/Users/miltonmalavo/.nuget/packages/googlegson/2.13.1.1/googlegson.2.13.1.1.nupkg.sha512",
     "/Users/miltonmalavo/.nuget/packages/microsoft.extensions.configuration/10.0.0/microsoft.extensions.configuration.10.0.0.nupkg.sha512",
     "/Users/miltonmalavo/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.0/microsoft.extensions.configuration.abstractions.10.0.0.nupkg.sha512",

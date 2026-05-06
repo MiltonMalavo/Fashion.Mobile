@@ -12,13 +12,17 @@
 		<data>
 		TZZ3WbQMtBXN9a6qxc60VF/+KkM=
 		</data>
+		<key>CommunityToolkit.Mvvm.dll</key>
+		<data>
+		LGVsPCTmauphvadw8UbYzP9cho8=
+		</data>
 		<key>Fashion.Mobile.dll</key>
 		<data>
-		JlUJJz0JfLYABiE5WikT2se35n8=
+		aiQc9Vo5CiXfYCqzBUiclTsw2Ok=
 		</data>
 		<key>Fashion.Mobile.pdb</key>
 		<data>
-		RB1IhCrgKrOA58H2C8797zzyZlo=
+		S+H5dWbAOKyfhgWAnAq5cztMUrY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -852,6 +856,18 @@
 		<data>
 		K14fQ7tERW2T2NzCWBeWjY6tWv4=
 		</data>
+		<key>adidas.png</key>
+		<data>
+		S3ojdKDCskrcnR+Y8fr9i9lIMC0=
+		</data>
+		<key>adidas@2x.png</key>
+		<data>
+		TDMwh+wfFMUdZsKp1WPJ6Zy0X7s=
+		</data>
+		<key>adidas@3x.png</key>
+		<data>
+		HlXTwtdjH2xmB1QGV6vLj3z3/VA=
+		</data>
 		<key>appicon60x60@2x.png</key>
 		<data>
 		t4umfOZFumJ7QmzKhGEnyAcUk+s=
@@ -864,9 +880,205 @@
 		<data>
 		zeGMlV9/pzE4pks3fESSZWSqG3k=
 		</data>
+		<key>back.png</key>
+		<data>
+		4pt9prU4YYaRwG103Fa02JP3MgQ=
+		</data>
+		<key>back@2x.png</key>
+		<data>
+		gGOE5qewp08qnBn4aglOvmZLnVo=
+		</data>
+		<key>back@3x.png</key>
+		<data>
+		LxE0Juf6QgdY14c/rGPOlwAYIAg=
+		</data>
+		<key>bag.png</key>
+		<data>
+		E3trfh0ubovIuMlDjl6qr/K75EI=
+		</data>
+		<key>bag@2x.png</key>
+		<data>
+		jPebIaNVkeZzdCdCGjcLs1pJNG0=
+		</data>
+		<key>bag@3x.png</key>
+		<data>
+		YVcvGK0Zr61N7vPA/8C/XSR41+k=
+		</data>
+		<key>bag_o.png</key>
+		<data>
+		DX/TzYAU/dR38h1ceKaIBPEtB8E=
+		</data>
+		<key>bag_o@2x.png</key>
+		<data>
+		RUrhBIgB8YV3ED/0Aho0cN7h+YY=
+		</data>
+		<key>bag_o@3x.png</key>
+		<data>
+		PY2SCdSSZAzdxsv7hDo+rYH2A44=
+		</data>
+		<key>banner.png</key>
+		<data>
+		6DGuSYo12sa4BTpVArA/uHEMEKM=
+		</data>
 		<key>ca/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		wYubJ4tczUHEXmUV2KASo0GOIhc=
+		</data>
+		<key>chanel.png</key>
+		<data>
+		QbbXSUTFQgerQ87SjOExEThCRvk=
+		</data>
+		<key>chanel@2x.png</key>
+		<data>
+		qP9ltWzLRioT0abbCWwSmtwrjFU=
+		</data>
+		<key>chanel@3x.png</key>
+		<data>
+		inp86OvD4H+WPUCCe+mC8blchhQ=
+		</data>
+		<key>close.png</key>
+		<data>
+		qw5s3IAgGup/6QEO+Dec8P6GIbY=
+		</data>
+		<key>close@2x.png</key>
+		<data>
+		xeMpVdfzep2vYvrGqMs+TQCCoR0=
+		</data>
+		<key>close@3x.png</key>
+		<data>
+		LR6hGi+50PDZPy/oGVMf+EJppiM=
+		</data>
+		<key>coat1.png</key>
+		<data>
+		2hFfW5xHfzM+LyEpP6k2udQmQiI=
+		</data>
+		<key>coat10.png</key>
+		<data>
+		oU5XTCZwLku39hDk7Fq7NPtc/DM=
+		</data>
+		<key>coat11.png</key>
+		<data>
+		mCP1IzkUDxo+BZTQkVqa8r6AaX0=
+		</data>
+		<key>coat116.png</key>
+		<data>
+		OA8mC+/rfnKq1K9ywjSBofCcxEA=
+		</data>
+		<key>coat12.png</key>
+		<data>
+		ZtF9oYz6l303959+VgmvwFf4ZYs=
+		</data>
+		<key>coat13.png</key>
+		<data>
+		ufBoiKvz5I5Rjp/sJiF1xETfIZ0=
+		</data>
+		<key>coat14.png</key>
+		<data>
+		Rsmlv8wHhJ8BFQNxjtWVD1cUoFg=
+		</data>
+		<key>coat15.png</key>
+		<data>
+		ca24WeQy4Lr3QbbF6g+W3EG8BBo=
+		</data>
+		<key>coat16.png</key>
+		<data>
+		tRPax4rHYo9kxhfizO6iq47xhvk=
+		</data>
+		<key>coat17.png</key>
+		<data>
+		99exCwAve0KvIN7Xh1GtDttdqUE=
+		</data>
+		<key>coat18.png</key>
+		<data>
+		pJACbNU3e+NYVCyJ8nfYUZlqyDA=
+		</data>
+		<key>coat19.png</key>
+		<data>
+		9AkgkK+TO6kXcCBt4Ck5tiFZXCE=
+		</data>
+		<key>coat2.png</key>
+		<data>
+		jHmhLxpl0Qzy9davEC0jdJDJO+s=
+		</data>
+		<key>coat20.png</key>
+		<data>
+		/eiw7PD1ieWVRxJyu4yP5Mt9ugU=
+		</data>
+		<key>coat21.png</key>
+		<data>
+		96BJLdZ1k8YQ4BfmQl+txdOyx4s=
+		</data>
+		<key>coat22.png</key>
+		<data>
+		ysFxTdIq49Ft4X4bIvvMCPjqT4E=
+		</data>
+		<key>coat23.png</key>
+		<data>
+		oed5UVT38zBAaQrHZz3XwzqyXC8=
+		</data>
+		<key>coat24.png</key>
+		<data>
+		MhHi11DnnXKfnqAj8qMolF8DMlI=
+		</data>
+		<key>coat25.png</key>
+		<data>
+		OObkzLamegFJhe9/jD8NC0Cb5gc=
+		</data>
+		<key>coat26.png</key>
+		<data>
+		OlmduGYc9tDKG8daI9KgB+NPM9Q=
+		</data>
+		<key>coat27.png</key>
+		<data>
+		U4I1Fv4h4D7eE3Y9xwvmVw/hcaA=
+		</data>
+		<key>coat28.png</key>
+		<data>
+		oed5UVT38zBAaQrHZz3XwzqyXC8=
+		</data>
+		<key>coat29.png</key>
+		<data>
+		2VSnb2f8tB8yg0F2/kdUTMaaSw4=
+		</data>
+		<key>coat3.png</key>
+		<data>
+		mCP1IzkUDxo+BZTQkVqa8r6AaX0=
+		</data>
+		<key>coat30.png</key>
+		<data>
+		u6v5rX5OY/mvarG4EWd7CuupJdg=
+		</data>
+		<key>coat31.png</key>
+		<data>
+		d9/PM4JsvO7r8NTzVBYDpOelTQ4=
+		</data>
+		<key>coat32.png</key>
+		<data>
+		M+kci27gkmzzD+Goi+/kNRnSdEQ=
+		</data>
+		<key>coat4.png</key>
+		<data>
+		OqTY99Bg9pZC8zQwF29rMkv74IM=
+		</data>
+		<key>coat5.png</key>
+		<data>
+		3Vwe0O1EbDy/as8vhhhPW85g8dg=
+		</data>
+		<key>coat6.png</key>
+		<data>
+		fXCdT0NcYLeApDliBNdasZ2Tpko=
+		</data>
+		<key>coat7.png</key>
+		<data>
+		K7Lk2uJANZvFQXnM3DQ+b64Otjk=
+		</data>
+		<key>coat8.png</key>
+		<data>
+		KeDMv6/Qmmmy2yaME0jYCcPKjjY=
+		</data>
+		<key>coat9.png</key>
+		<data>
+		Yd6Co7v9xPRaHrHwFCy2uek9Itc=
 		</data>
 		<key>cs/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
@@ -879,6 +1091,30 @@
 		<key>de/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		eV5p0x3bouvVnU9DWXw9YvZtYqY=
+		</data>
+		<key>discount.png</key>
+		<data>
+		L9xtRJkbLiFopmmLZYfTQqEtsfs=
+		</data>
+		<key>discount@2x.png</key>
+		<data>
+		eCdBu2u+iQu/BANGmWk3bzHMNvo=
+		</data>
+		<key>discount@3x.png</key>
+		<data>
+		6SABJFz4AFEP6OKkQDKqX6xmO0M=
+		</data>
+		<key>dji.png</key>
+		<data>
+		i2jFXEenuqb28VtkHPAOc7gXMQI=
+		</data>
+		<key>dji@2x.png</key>
+		<data>
+		Hbh2hYVCUHOxZ8J/UxoDzPYc1Y4=
+		</data>
+		<key>dji@3x.png</key>
+		<data>
+		YK4KqU9etZoGQkv0NZ9bmsYW4HE=
 		</data>
 		<key>dotnet_bot.png</key>
 		<data>
@@ -904,6 +1140,18 @@
 		<data>
 		3Ilab07WXtJ1Qii/49Ug+GOHBS0=
 		</data>
+		<key>flash.png</key>
+		<data>
+		/XGGn7kLHcCJVavADi5ndRtgnH4=
+		</data>
+		<key>flash@2x.png</key>
+		<data>
+		IUxXuo2VQjPgOOoYNRX4gtL7bbE=
+		</data>
+		<key>flash@3x.png</key>
+		<data>
+		aB4q0biM08Etp3KCPvgDaKZocx8=
+		</data>
 		<key>foto.png</key>
 		<data>
 		snwq+DUwyV60w9l/F5mOOkKP6tE=
@@ -911,6 +1159,18 @@
 		<key>fr/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		Uepby1eknmgMB1KAoVgZrygh3rw=
+		</data>
+		<key>gift.png</key>
+		<data>
+		mIsHynRIHJs5zqlqyNkhj0VQ3LI=
+		</data>
+		<key>gift@2x.png</key>
+		<data>
+		dfM3WzNzJGb1eCGOtD2Zuf0RV0I=
+		</data>
+		<key>gift@3x.png</key>
+		<data>
+		Jaf9gh3VAkc3qTlekBSEwdoykxc=
 		</data>
 		<key>he/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
@@ -1004,6 +1264,18 @@
 		<data>
 		k203s6B5l7kymyEvqpFFXyn/Hog=
 		</data>
+		<key>nike.png</key>
+		<data>
+		i2vfKd1/Ro5+YrOEGKhU4I5VLt4=
+		</data>
+		<key>nike@2x.png</key>
+		<data>
+		wf06B47ZlJGo/LO8Dm+o2pPO9Mo=
+		</data>
+		<key>nike@3x.png</key>
+		<data>
+		1QpnJLpLdSbw3A8ys+uAfZMNqHE=
+		</data>
 		<key>nl/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		Irx/WHQl2l3d4chi7lS7Yp1nRyQ=
@@ -1032,6 +1304,18 @@
 		<data>
 		eGb3uS8RSB+/Eo1Xcm/TtWjbJsw=
 		</data>
+		<key>puma.png</key>
+		<data>
+		2b9QMELbvsK9AHv0yeVcQYefeZ8=
+		</data>
+		<key>puma@2x.png</key>
+		<data>
+		N2XLwOCqhbTywD+sNXM+piRv4AY=
+		</data>
+		<key>puma@3x.png</key>
+		<data>
+		9aZzvlbpeuqPGa0ZtTlrcLs4y0o=
+		</data>
 		<key>ro/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		Uh8SOu5d8fJHwzihf5VzdMm4x1g=
@@ -1042,7 +1326,31 @@
 		</data>
 		<key>runtimeconfig.bin</key>
 		<data>
-		flmsFVmMvylVoNr/GUEtHKrQ3q0=
+		oLtywSFt0laft2XsP7ffKVfMQK0=
+		</data>
+		<key>scan.png</key>
+		<data>
+		6k+bTEJGq6YiSaHZs/GmlCx6P7o=
+		</data>
+		<key>scan@2x.png</key>
+		<data>
+		aMxXQo4NmLxlpItAXFDdS1hl3QA=
+		</data>
+		<key>scan@3x.png</key>
+		<data>
+		Ix/pY+2r22c4x916IZdtPWsu3ZU=
+		</data>
+		<key>search.png</key>
+		<data>
+		ErZFgzcOlI0kTi4bYQRUQ0I1b7s=
+		</data>
+		<key>search@2x.png</key>
+		<data>
+		elbcl4Uq9D9JroR8JQWN7OLPKPY=
+		</data>
+		<key>search@3x.png</key>
+		<data>
+		iMtiEaA7Wwu38DpwSm23WbyXmCA=
 		</data>
 		<key>sk/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
@@ -1059,6 +1367,18 @@
 		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D@3x.png</key>
 		<data>
 		V9uL2U0a2H/Rg28AStjUugC+RP4=
+		</data>
+		<key>star.png</key>
+		<data>
+		TtS/JlWuiRg2n1ZzSJNXLXXUKmY=
+		</data>
+		<key>star@2x.png</key>
+		<data>
+		3mAfSMfKqR9NMoBCDM0ANXfFous=
+		</data>
+		<key>star@3x.png</key>
+		<data>
+		7x0YO2Q0VBYkJkdbwWBFlciTjiw=
 		</data>
 		<key>sv/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
@@ -1079,6 +1399,30 @@
 		<key>vi/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		q0Q0GZp7YrERJ+3t3OVCHrHw/wA=
+		</data>
+		<key>vip.png</key>
+		<data>
+		sAPPN0qcY7rh1YQmseRrT95zQG8=
+		</data>
+		<key>vip@2x.png</key>
+		<data>
+		Ko+o/jduLs/IfzQxS7oWLT4tJlU=
+		</data>
+		<key>vip@3x.png</key>
+		<data>
+		gicJcEc22C9R8/JPuF3UqloQYsU=
+		</data>
+		<key>wallet.png</key>
+		<data>
+		f2813LCzP7Bp5jYemQgtsmcS6DU=
+		</data>
+		<key>wallet@2x.png</key>
+		<data>
+		zDccwBzUj95JTRQj5h8jcG5wH7M=
+		</data>
+		<key>wallet@3x.png</key>
+		<data>
+		SH95BWrku1D9Dxu6iPFRHsfwk6M=
 		</data>
 		<key>xml/microsoft_maui_essentials_fileprovider_file_paths.xml</key>
 		<data>
@@ -1113,18 +1457,25 @@
 			n8Qy648mAhJ6G5jElPREZwzy3dZyGTSQRc+EBtWxy2c=
 			</data>
 		</dict>
+		<key>CommunityToolkit.Mvvm.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GbIUT+2WANWKdCpaSl/XsQ1NDSwuefXYAZMHz1ZXBE8=
+			</data>
+		</dict>
 		<key>Fashion.Mobile.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			frmdJqqUl+ou4u/F9nCiXz6r3oSIxFTU6BuzTZ349YQ=
+			mE9gl6XWgYYRgcAmLB4Rhb8i1ZxHbFEvTwCBCa+1Wz0=
 			</data>
 		</dict>
 		<key>Fashion.Mobile.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2EgkZLL9XoLf8zu/sH4dWc9xbEHZ74qggLyr5zW9It4=
+			jyJUFW4hktK2vwWrI+Q7FRReqQ+xd3Tb250zvLtDgDg=
 			</data>
 		</dict>
 		<key>MauiInfo.plist</key>
@@ -2569,6 +2920,27 @@
 			5b5QVbBCzsXqtCjpAZ0+0KvuHkc5wXMaAee7PK8cL34=
 			</data>
 		</dict>
+		<key>adidas.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hu2ktXuXfCjkbspcVq7aTDIBW2wLcnofj6I1bhuwBhc=
+			</data>
+		</dict>
+		<key>adidas@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pDRNXZ1+oXeYz8sN07W2rVuNpVe0su9wS99VLApPyQ0=
+			</data>
+		</dict>
+		<key>adidas@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			30pH+uIzxf3CAMSn9JB7UqCw8VizHxgCVuVYae3vn7A=
+			</data>
+		</dict>
 		<key>appicon60x60@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2590,11 +2962,354 @@
 			fIeMO7vX+9y+AM3K2rPIPk2rUo+2PTjOQ5JSAx0nBtY=
 			</data>
 		</dict>
+		<key>back.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uw+MvuulNwoUtqGuCysY8G4t/Q15kVypsdIA8Itnizc=
+			</data>
+		</dict>
+		<key>back@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RHFlwyX0Y52ZeOzMF0SB8CPyoxWm8Ib0oMWBbnTTp2A=
+			</data>
+		</dict>
+		<key>back@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gRqxiqOJw0nTtHlC8zvnXoS4BOJtEeLsF9kgAqILw34=
+			</data>
+		</dict>
+		<key>bag.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dA8iAhRq3oPexWaZu4jKu/hSuAqeNSGYD5DDdBl1WW0=
+			</data>
+		</dict>
+		<key>bag@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z0DsAuDj9MqBdmrgpiEte5EtPbqPH+cQV5pJA8i0WJQ=
+			</data>
+		</dict>
+		<key>bag@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hc9M8LpY0Yp7RgSz5NTbYTo6XgQed3MiHxP1+3udb/g=
+			</data>
+		</dict>
+		<key>bag_o.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3G/a5g0ND2oDfjrfkeUNsOryhQ/TFGZrGKm17VPsJqA=
+			</data>
+		</dict>
+		<key>bag_o@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rf1KlYH6CoJ6Y/AwlvtCYv/cmqzGpkPHfL1EI9vFBaA=
+			</data>
+		</dict>
+		<key>bag_o@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			279mXM59SbKnA7fjzHfv5Y1xKhqVqEjM1ATnB14O+Hg=
+			</data>
+		</dict>
+		<key>banner.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ln0gHSnJDVUX3tpP2gWMF6Jjy8MN9RsYXoGiy9CE1fg=
+			</data>
+		</dict>
 		<key>ca/Microsoft.Maui.Controls.resources.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			eg18TNBHVInjJ0Q8SVHv1j/YtNG8796weQZxgDkoqNs=
+			</data>
+		</dict>
+		<key>chanel.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+vPxHt7eFcfGHLJ8uRviOzxvtb8IEcuSOnyl2xFMhM0=
+			</data>
+		</dict>
+		<key>chanel@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9qz9fEwZZ4K0YPvK+ICKLhZ8TQV8zbhDuxKPGsXguZI=
+			</data>
+		</dict>
+		<key>chanel@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			455RxN3bDa5dmrj/L4xbKzClAtZlHZpxbVj5uloqSl4=
+			</data>
+		</dict>
+		<key>close.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EWCtCpJz/SBdTUXpf1n+wSHTS1No8JvXoYLFZbP0hME=
+			</data>
+		</dict>
+		<key>close@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y9drAHX+Saomi0bA3JGPJMoCLoXiSnUBy4MzAx6kFXo=
+			</data>
+		</dict>
+		<key>close@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6HmC4dvnBtJaskh+87iiyXdUcH1btmyd4UmRAmu7qDY=
+			</data>
+		</dict>
+		<key>coat1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EEUlHMsRkHxIs1px2Bf//vRBhng1y7q5i7k252AMqnI=
+			</data>
+		</dict>
+		<key>coat10.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s7X4bq+UPnOhGOCspN6nfDzf4TkvzJQXgLNrzX3voOQ=
+			</data>
+		</dict>
+		<key>coat11.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h8jyRN0kwloHg3x94Bwas1N+8A4Yal1qlCFSVek3TQY=
+			</data>
+		</dict>
+		<key>coat116.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ygY2p0YNjV6f2FkRVTnhDV+gkqBrD5oEjMa3gbYSgeQ=
+			</data>
+		</dict>
+		<key>coat12.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BzwAkEt1bP2+Sa3oE480aayanltJBWTix+v5PhG0hP8=
+			</data>
+		</dict>
+		<key>coat13.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IOjHnzT9lX+IC9GXvPYn1wlL1DxqN35271zazyyH768=
+			</data>
+		</dict>
+		<key>coat14.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h4cfkQ4fW/MCXSatV53+rTZ6WEvZvghuNttP4JlNK50=
+			</data>
+		</dict>
+		<key>coat15.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xAWCdK/SapJNX5S5dG567g+3ZDS91IAjkWVN0pNO3nw=
+			</data>
+		</dict>
+		<key>coat16.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			11VgJqWFg0mKWr3dwFUcaik+7JmiaaeCRu5OUPUD4Ss=
+			</data>
+		</dict>
+		<key>coat17.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P9IqhE70xYXrKoxKKJIiSqnyu2dxYtG+cQAZaWozUUQ=
+			</data>
+		</dict>
+		<key>coat18.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sCT5RJSOMqCo2LORgX4l5CH/HiIUtrgto+Gi+SaWr4E=
+			</data>
+		</dict>
+		<key>coat19.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TglQipyu7+obH1U0z7JkRL0bFmizR2Vibtd5QAXVB3E=
+			</data>
+		</dict>
+		<key>coat2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xeqpo9LOrSEAjb+g0sZHKWo6qKu2vwyQ1SEmLU0cgfI=
+			</data>
+		</dict>
+		<key>coat20.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1dLyorHFHr1X9cajlDrUUmyuOrOtIPwta/PFJjcWt+4=
+			</data>
+		</dict>
+		<key>coat21.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YvWJRpCEp5hpZ0w81smjtzRFN9yxZOyFYuv3Vdi9rro=
+			</data>
+		</dict>
+		<key>coat22.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H7R0qE3DIAGopMxDnmvoW90OF52xvTHzcpHbp7cvr64=
+			</data>
+		</dict>
+		<key>coat23.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HixaKhc5oq39UAjxByqipqPorR9cp4/+Kt8O/mzu70w=
+			</data>
+		</dict>
+		<key>coat24.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tPkFjJ6VMgUsVPWWlCwvaGty9xc7tFBowfmNRetGuXc=
+			</data>
+		</dict>
+		<key>coat25.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3Fl05ToZe0jWIeG2EZzHV5AGHOcKEeHSG65iyMvEa1Y=
+			</data>
+		</dict>
+		<key>coat26.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xGZNjH3c63SDhzz6kkC+eM9YdO8pRBDgaXVlTakQC7o=
+			</data>
+		</dict>
+		<key>coat27.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JHJDRNCnNNhM6k6K5T2A97RXeNm1LXfrK9VKfNFlzvY=
+			</data>
+		</dict>
+		<key>coat28.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HixaKhc5oq39UAjxByqipqPorR9cp4/+Kt8O/mzu70w=
+			</data>
+		</dict>
+		<key>coat29.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E7qKIdQ1kUTbC7lXpQbFupEJxJugDfyHqfFTI8WjmeE=
+			</data>
+		</dict>
+		<key>coat3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h8jyRN0kwloHg3x94Bwas1N+8A4Yal1qlCFSVek3TQY=
+			</data>
+		</dict>
+		<key>coat30.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FB4HYKC7H296I3Pjdd2np7m+OjuGTHbBXDxsUi7Liak=
+			</data>
+		</dict>
+		<key>coat31.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qOTn8GY2kwX0j/7rYxlb7NrtMD2GT7qdOnP9SfT45Fc=
+			</data>
+		</dict>
+		<key>coat32.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pVlypTm2HAZzzleMywOinsucZ/j9JljAldu3mfZ0TNU=
+			</data>
+		</dict>
+		<key>coat4.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ajDDXCozjPw+ld7KZspDzh+t8VxwQlHZdK591MLFWf0=
+			</data>
+		</dict>
+		<key>coat5.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			49iZUtRD//4pMy8AAuIaaonqc620xM0/Xm4U9lLHtDo=
+			</data>
+		</dict>
+		<key>coat6.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rbGgpwdkyehx1PzJ4uxbC/6KVGFwnHg1qdZn8bDnipY=
+			</data>
+		</dict>
+		<key>coat7.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZDfrbkQ1u5SF5toGled3I/NnfWi2phDY+kHwB1EpBhU=
+			</data>
+		</dict>
+		<key>coat8.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4swyFAtkUJYPJvOkqD+dCEwx6NRRx0121uLJ+qrXDjk=
+			</data>
+		</dict>
+		<key>coat9.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			imrhcslGnuC0PjYvWAXUOqeoQduuVlIpQpAhIRkDVxo=
 			</data>
 		</dict>
 		<key>cs/Microsoft.Maui.Controls.resources.dll</key>
@@ -2616,6 +3331,48 @@
 			<key>hash2</key>
 			<data>
 			uoPh2EBWP1szpQKhBMDFz+PE3/BDlOQZY8xqctvEy4g=
+			</data>
+		</dict>
+		<key>discount.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VTOYEhB5KHFV86BcAaZIZGijcuheCOicmG3QtSpUjYs=
+			</data>
+		</dict>
+		<key>discount@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xis66wO19UtpyagCQLtjORFiHg+SG7vpD0ilneLiFPo=
+			</data>
+		</dict>
+		<key>discount@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ry/nH9LHKfcJFfstOFT4KeSjzwxM4y9lXc7E1iIxrb4=
+			</data>
+		</dict>
+		<key>dji.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dbzFmve8iseBSm+ex6jXZI3oi6LiPwO91nGcvHooBlQ=
+			</data>
+		</dict>
+		<key>dji@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KpFmuQIRWGO396EI9WKsiKbgI2mz/IDiEKyT9XwnRdg=
+			</data>
+		</dict>
+		<key>dji@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5Q5bfIDxBLcqSMMgmqD6580yYfi01I3mvc010bZ3XGQ=
 			</data>
 		</dict>
 		<key>dotnet_bot.png</key>
@@ -2660,6 +3417,27 @@
 			/CraLWU8eoaCZWvUKbdj74F91MRn8jWxt5SYGQ0Tq18=
 			</data>
 		</dict>
+		<key>flash.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o8fAu/9ETk9BQZUPfnHMfENqmC/zmVbRif4aHweqTKo=
+			</data>
+		</dict>
+		<key>flash@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			syKNsIeZvS/JbcLr5ldW96+yvcscRMG5KRWv5UihIdA=
+			</data>
+		</dict>
+		<key>flash@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kCzFtCsclXZDo3rsK8qPUnBTgn05NaeWqEsfgHY0AY4=
+			</data>
+		</dict>
 		<key>foto.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2672,6 +3450,27 @@
 			<key>hash2</key>
 			<data>
 			keF/sClXpa9BvrzTd1fZfZxXbDk0wFAlRBBCJzXg9co=
+			</data>
+		</dict>
+		<key>gift.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XfQ6kEuSk6927J1Vmw9kosWCN4+t7G8DhexuSwTEwzQ=
+			</data>
+		</dict>
+		<key>gift@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RhkeFllU/MjsSRdVIAhnCJh9GFVRqUVJWURRYBrkvQs=
+			</data>
+		</dict>
+		<key>gift@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tk0I/1h6p1X0Gd84g043/pyzo+vnskQhaoYHRUB6S8k=
 			</data>
 		</dict>
 		<key>he/Microsoft.Maui.Controls.resources.dll</key>
@@ -2835,6 +3634,27 @@
 			kOukjxlzP3If/R0+N/MZoLel2IiA1guKAVtmSjFnqEs=
 			</data>
 		</dict>
+		<key>nike.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pozGoO4y56DOZkS6k/bzS/eIn5TfHisP5UT2pIl6IUk=
+			</data>
+		</dict>
+		<key>nike@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5QXIulGsUbJQ9ercvxKaqJKKMp3lYeLdv5NCwgJNuj8=
+			</data>
+		</dict>
+		<key>nike@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			legNRDiArqmSrivucqLA5tafUZjPSMLHlziEmk6Kzww=
+			</data>
+		</dict>
 		<key>nl/Microsoft.Maui.Controls.resources.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -2884,6 +3704,27 @@
 			r/aQJCfGN6qaq9RueqgjIC1FBE+eSVnPhZL9jyxS770=
 			</data>
 		</dict>
+		<key>puma.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hrVbUxdF56vxQy+rJpzDZitTr0ORkfE7QjWNCE1Jygk=
+			</data>
+		</dict>
+		<key>puma@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PioDK+8Hqg+OeDB0L8toXT+MYC/trmlbzpLU3U0n9YQ=
+			</data>
+		</dict>
+		<key>puma@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lu58yfA1+Tc7+aklo4yCtCH1n8rVGdlJFxYDZvsiUyI=
+			</data>
+		</dict>
 		<key>ro/Microsoft.Maui.Controls.resources.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -2902,7 +3743,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UtTNIUD0KpktsYjgsOtADCl+7OqTxQbGceJHVGazeV0=
+			VWwquuI8NdDAvkHVhQ/qPlJLenjWEcsHa+uk3OPR0uM=
+			</data>
+		</dict>
+		<key>scan.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mmfErd3iVW20BPuMwzAJXwzeYJizbPlDyaZZ2KO8w3E=
+			</data>
+		</dict>
+		<key>scan@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lfxd/28H6GIMjQClAMSUJYpLsw6OJieV9yiXE8Macj8=
+			</data>
+		</dict>
+		<key>scan@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y4I4BRfUGPVJdEF1Zje99TEejL1MQKa3lOoEunLOWX4=
+			</data>
+		</dict>
+		<key>search.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0ZcOHUYO1hbOhH6B/HBoa8YaukF/b9YsuYmZztOSYDs=
+			</data>
+		</dict>
+		<key>search@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			30cbfDTY0wQv3UX6wTIdhRAiapnhRFgt5RxoeKyg4qA=
+			</data>
+		</dict>
+		<key>search@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AzozsSdg2H6dmjta+eVtmkPrhOozdID6uoKXaa2Xu1g=
 			</data>
 		</dict>
 		<key>sk/Microsoft.Maui.Controls.resources.dll</key>
@@ -2931,6 +3814,27 @@
 			<key>hash2</key>
 			<data>
 			TR5wkKzih6lYQ3pqkvy+F+ZIOuoGZ1uEfeG93l0BSfE=
+			</data>
+		</dict>
+		<key>star.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TQiTPRjGYQQXsXa3h/Ku7Vygmi1vdxFColdLwWQtqMI=
+			</data>
+		</dict>
+		<key>star@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G+kFJOG/AYQVfNjbeFdZrWUYoLORRWAxKiW50vNh3ks=
+			</data>
+		</dict>
+		<key>star@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u69lHMs4Hv/T2x0Mzb1S+00cynx59UDxGtcpP8bC5Aw=
 			</data>
 		</dict>
 		<key>sv/Microsoft.Maui.Controls.resources.dll</key>
@@ -2966,6 +3870,48 @@
 			<key>hash2</key>
 			<data>
 			Wf9q44Kvhilmt2Ye+a3VrOjp5IjJBJpLZzzwW2ZDyPw=
+			</data>
+		</dict>
+		<key>vip.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4e0eMvTgPGGfUpZSWxPB2S+1iy/KM4PCcdSIvjySykQ=
+			</data>
+		</dict>
+		<key>vip@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r8fgUNE3yAH09SrBp7fVJNEjg8uI9lxvQRJN7dAVMqg=
+			</data>
+		</dict>
+		<key>vip@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h90i86t6HS0CxjENpVgQKntCEO4fKSi1PYEsJtk7SsA=
+			</data>
+		</dict>
+		<key>wallet.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9bNF8pvLT/R6OvndIuzI3qfNt2QeJxSkMxFCOJz0ffI=
+			</data>
+		</dict>
+		<key>wallet@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MAXBhdfrUT7XIXoeJeWxTdFfD8MQneWlyE3TQCxw3pA=
+			</data>
+		</dict>
+		<key>wallet@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BCHLef/49iLNwvQaHnS4gdN63cBV91vj2vmy+Wm/glo=
 			</data>
 		</dict>
 		<key>xml/microsoft_maui_essentials_fileprovider_file_paths.xml</key>

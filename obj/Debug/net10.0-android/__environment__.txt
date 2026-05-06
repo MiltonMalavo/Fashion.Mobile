@@ -1,0 +1,3 @@
+mono.enable_assembly_preload=0
+DOTNET_MODIFIABLE_ASSEMBLIES=Debug
+DOTNET_DiagnosticPorts=127.0.0.1:9000,connect,nosuspend

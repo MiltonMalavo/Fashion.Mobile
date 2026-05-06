@@ -33,6 +33,7 @@
 /Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../Fashion.Mobile.app/zh-Hans/Microsoft.Maui.Controls.resources.dll
 /Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../Fashion.Mobile.app/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../Fashion.Mobile.app/runtimeconfig.bin
+/Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../Fashion.Mobile.app/CommunityToolkit.Mvvm.dll
 /Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../Fashion.Mobile.app/Microsoft.Extensions.Configuration.dll
 /Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../Fashion.Mobile.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/miltonmalavo/Desktop/MiltonMalavo/Design/Fashion.Mobile/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../Fashion.Mobile.app/Microsoft.Extensions.DependencyInjection.dll
